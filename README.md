@@ -1,4 +1,6 @@
-# AutonomousCommunitiesWeb
+# Autonomous Communities Web
+
+All the autonomous communities of Spain and their provinces.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
