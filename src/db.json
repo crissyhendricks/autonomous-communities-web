@@ -1,0 +1,168 @@
+{
+  "autonomous-communities": [
+    {
+      "id": 1,
+      "community": "Andalucía",
+      "provinces": [
+        { "province": "Almería" },
+        { "province": "Cádiz" },
+        { "province": "Córdoba" },
+        { "province": "Granada" },
+        { "province": "Huelva" },
+        { "province": "Jaén" },
+        { "province": "Málaga" },
+        { "province": "Sevilla" }
+      ],
+      "surface": 87.268
+    },
+    {
+      "id": 2,
+      "community": "Aragón",
+      "provinces": [
+        { "province": "Huesca" },
+        { "province": "Teruel" },
+        { "province": "Zaragoza" }
+      ],
+      "surface": 47.719
+    },
+    {
+      "id": 3,
+      "community": "Principado de Asturias",
+      "provinces": [{ "province": "Asturias" }],
+      "surface": 10.604
+    },
+    {
+      "id": 4,
+      "community": "Islas Baleares",
+      "provinces": [{ "province": "Baleares" }],
+      "surface": 4992
+    },
+    {
+      "id": 5,
+      "community": "Canarias",
+      "provinces": [
+        { "province": "Las Palmas" },
+        { "province": "Santa Cruz de Tenerife" }
+      ],
+      "surface": 7447
+    },
+    {
+      "id": 6,
+      "community": "Cantabria",
+      "provinces": [{ "province": "Cantabria" }],
+      "surface": 5326
+    },
+    {
+      "id": 7,
+      "community": "Castilla-La Mancha",
+      "provinces": [
+        { "province": "Albacete" },
+        { "province": "Ciudad Real" },
+        { "province": "Cuenca" },
+        { "province": "Guadalajara" },
+        { "province": "Toledo" }
+      ],
+      "surface": 79.463
+    },
+    {
+      "id": 8,
+      "community": "Castilla y León",
+      "provinces": [
+        { "province": "Ávila" },
+        { "province": "Burgos" },
+        { "province": "León" },
+        { "province": "Palencia" },
+        { "province": "Salamanca" },
+        { "province": "Segovia" },
+        { "province": "Soria" },
+        { "province": "Valladolid" },
+        { "province": "Zamora" }
+      ],
+      "surface": 94.226
+    },
+    {
+      "id": 9,
+      "community": "Cataluña",
+      "provinces": [
+        { "province": "Barcelona" },
+        { "province": "Gerona" },
+        { "province": "Lérida" },
+        { "province": "Tarragona" }
+      ],
+      "surface": 32.107
+    },
+    {
+      "id": 10,
+      "community": "Comunidad Valenciana",
+      "provinces": [
+        { "province": "Alicante" },
+        { "province": "Castellón" },
+        { "province": "Valencia" }
+      ],
+      "surface": 23.255
+    },
+    {
+      "id": 11,
+      "community": "Extremadura",
+      "provinces": [{ "province": "Badajoz" }, { "province": "Cáceres" }],
+      "surface": 41.635
+    },
+    {
+      "id": 12,
+      "community": "Galicia",
+      "provinces": [
+        { "province": "La Coruña" },
+        { "province": "Lugo" },
+        { "province": "Orense" },
+        { "province": "Pontevedra" }
+      ],
+      "surface": 29.574
+    },
+    {
+      "id": 13,
+      "community": "La Rioja",
+      "provinces": [{ "province": "La Rioja" }],
+      "surface": 5045
+    },
+    {
+      "id": 14,
+      "community": "Madrid",
+      "provinces": [{ "province": "Madrid" }],
+      "surface": 8022
+    },
+    {
+      "id": 15,
+      "community": "Región de Murcia",
+      "provinces": [{ "province": "Región de Murcia" }],
+      "surface": 11.313
+    },
+    {
+      "id": 16,
+      "community": "Comunidad Foral de Navarra",
+      "provinces": [{ "province": "Navarra" }],
+      "surface": 10.391
+    },
+    {
+      "id": 17,
+      "community": "País Vasco",
+      "provinces": [
+        { "province": "Álava" },
+        { "province": "Guipúzcoa" },
+        { "province": "Vizcaya" }
+      ],
+      "surface": 7234
+    },
+    {
+      "id": 18,
+      "community": "Ceuta",
+      "provinces": [{ "province": "Ceuta" }],
+      "surface": 19
+    },
+    {
+      "id": 19,
+      "community": "Melilla",
+      "provinces": [{ "province": "Melilla" }],
+      "surface": 12
+    }
+  ]
+}

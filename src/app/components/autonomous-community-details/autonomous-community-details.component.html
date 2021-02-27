@@ -1,0 +1,76 @@
+<mat-card *ngIf="community" class="mat-elevation-z8">
+  <div class="card-header">
+    <h1 class="element-padding page-title">
+      <img
+        class="flag-image"
+        src="/assets/images/flags/{{ community.community }}.png"
+        width="50"
+        alt="Bandera de España"
+      />{{ community.community }}
+    </h1>
+    <div class="element-padding-2">
+      <p>
+        {{
+          community.capital != undefined
+            ? "Capital: " + community.capital
+            : "Ciudad Autónoma"
+        }}
+      </p>
+
+      <p>Surface: {{ community.surface }}km²</p>
+
+      <p>Population: {{ community.population }}</p>
+    </div>
+  </div>
+  <mat-grid-list cols="4">
+    <mat-grid-tile
+      ><img
+        class="map-image"
+        src="/assets/images/map/{{ community.community }}.png"
+        alt="{{ community.community }}"
+    /></mat-grid-tile>
+    <mat-grid-tile colspan="3">
+      <table mat-table [dataSource]="dataSource">
+        <ng-container matColumnDef="province">
+          <th mat-header-cell *matHeaderCellDef>Province</th>
+          <td mat-cell *matCellDef="let row">
+            <b>{{ row.province }}</b>
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="population">
+          <th mat-header-cell *matHeaderCellDef>population</th>
+          <td mat-cell *matCellDef="let row">
+            {{ row.population }}
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="population_percentage">
+          <th mat-header-cell *matHeaderCellDef>population (%)</th>
+          <td mat-cell *matCellDef="let row">
+            {{ row.population_percentage }}%
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="surface">
+          <th mat-header-cell *matHeaderCellDef>surface</th>
+          <td mat-cell *matCellDef="let row">
+            {{ row.surface != undefined ? row.surface + " km²" : "No Data" }}
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="surface_percentage">
+          <th mat-header-cell *matHeaderCellDef>Surface (%)</th>
+          <td mat-cell *matCellDef="let row">
+            {{
+              row.surface_percentage != undefined
+                ? row.surface_percentage + "%"
+                : "No Data"
+            }}
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr></table
+    ></mat-grid-tile>
+  </mat-grid-list>
+  <button mat-raised-button color="primary" [routerLink]="['/']">
+    <mat-icon>keyboard_backspace</mat-icon> Back to list
+  </button>
+</mat-card>

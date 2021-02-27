@@ -1,0 +1,533 @@
+{
+  "autonomous-communities": [
+    {
+      "id": 1,
+      "community": "Andalucía",
+      "provinces": [
+        {
+          "province": "Almería",
+          "population": 727945,
+          "population_percentage": 1.55,
+          "surface": 8775,
+          "surface_percentage": 1.73
+        },
+        {
+          "province": "Cádiz",
+          "population": 1244049,
+          "population_percentage": 2.65,
+          "surface": 7440,
+          "surface_percentage": 1.47
+        },
+        {
+          "province": "Córdoba",
+          "population": 781451,
+          "population_percentage": 1.66,
+          "surface": 13771,
+          "surface_percentage": 2.72
+        },
+        {
+          "province": "Granada",
+          "population": 919168,
+          "population_percentage": 1.95,
+          "surface": 12646,
+          "surface_percentage": 2.5
+        },
+        {
+          "province": "Huelva",
+          "population": 524278,
+          "population_percentage": 1.11,
+          "surface": 10127,
+          "surface_percentage": 2
+        },
+        {
+          "province": "Jaén",
+          "population": 631381,
+          "population_percentage": 1.33,
+          "surface": 13496,
+          "surface_percentage": 2.67
+        },
+        {
+          "province": "Málaga",
+          "population": 1685920,
+          "population_percentage": 3.59,
+          "surface": 7306,
+          "surface_percentage": 1.44
+        },
+        {
+          "province": "Sevilla",
+          "population": 1950219,
+          "population_percentage": 4.14,
+          "surface": 14036,
+          "surface_percentage": 2.77
+        }
+      ],
+      "surface": 87268,
+      "population": 8379248,
+      "capital": "Sevilla"
+    },
+    {
+      "id": 2,
+      "community": "Aragón",
+      "provinces": [
+        {
+          "province": "Huesca",
+          "population": 222687,
+          "population_percentage": 0.46,
+          "surface": 15636,
+          "surface_percentage": 3.09
+        },
+        {
+          "province": "Teruel",
+          "population": 134176,
+          "population_percentage": 0.28,
+          "surface": 14809,
+          "surface_percentage": 2.93
+        },
+        {
+          "province": "Zaragoza",
+          "population": 972528,
+          "population_percentage": 2.07,
+          "surface": 17274,
+          "surface_percentage": 3.41
+        }
+      ],
+      "surface": 47719,
+      "population": 1307984,
+      "capital": "Zaragoza"
+    },
+    {
+      "id": 3,
+      "community": "Principado de Asturias",
+      "provinces": [
+        {
+          "province": "Asturias",
+          "population": 1018784,
+          "population_percentage": 2.17,
+          "surface": 10603,
+          "surface_percentage": 2.1
+        }
+      ],
+      "surface": 10604,
+      "population": 1028135,
+      "capital": "Oviedo"
+    },
+    {
+      "id": 4,
+      "community": "Islas Baleares",
+      "provinces": [
+        {
+          "province": "Baleares",
+          "population": 1171543,
+          "population_percentage": 2.49,
+          "surface": 4991,
+          "surface_percentage": 0.99
+        }
+      ],
+      "surface": 4992,
+      "population": 1128139,
+      "capital": "Palma de Mallorca"
+    },
+    {
+      "id": 5,
+      "community": "Canarias",
+      "provinces": [
+        {
+          "province": "Las Palmas",
+          "population": 1131065,
+          "population_percentage": 2.41,
+          "surface": 4114,
+          "surface_percentage": 0.81
+        },
+        {
+          "province": "Santa Cruz de Tenerife",
+          "population": 1044887,
+          "population_percentage": 2.22,
+          "surface": 3381,
+          "surface_percentage": 0.67
+        }
+      ],
+      "surface": 7447,
+      "population": 2126779,
+      "capital": "Las Palmas de Gran Canaria y Santa Cruz de Tenerife"
+    },
+    {
+      "id": 6,
+      "community": "Cantabria",
+      "provinces": [
+        {
+          "province": "Cantabria",
+          "population": 582905,
+          "population_percentage": 1.22,
+          "surface": 5321,
+          "surface_percentage": 1.05
+        }
+      ],
+      "surface": 5326,
+      "population": 580067,
+      "capital": "Palma de Santander"
+    },
+    {
+      "id": 7,
+      "community": "Castilla-La Mancha",
+      "provinces": [
+        {
+          "province": "Albacete",
+          "population": 388270,
+          "population_percentage": 0.81,
+          "surface": 14926,
+          "surface_percentage": 2.95
+        },
+        {
+          "province": "Ciudad Real",
+          "population": 495045,
+          "population_percentage": 1.04,
+          "surface": 19813,
+          "surface_percentage": 3.92
+        },
+        {
+          "province": "Cuenca",
+          "population": 196139,
+          "population_percentage": 0.41,
+          "surface": 17140,
+          "surface_percentage": 3.39
+        },
+        {
+          "province": "Guadalajara",
+          "population": 261955,
+          "population_percentage": 0.55,
+          "surface": 12214,
+          "surface_percentage": 2.41
+        },
+        {
+          "province": "Toledo",
+          "population": 703772,
+          "population_percentage": 1.5,
+          "surface": 15369,
+          "surface_percentage": 3.04
+        }
+      ],
+      "surface": 79463,
+      "population": 2025510,
+      "capital": "No declarada"
+    },
+    {
+      "id": 8,
+      "community": "Castilla y León",
+      "provinces": [
+        {
+          "province": "Ávila",
+          "population": 157664,
+          "population_percentage": 0.33,
+          "surface": 8050,
+          "surface_percentage": 1.59
+        },
+        {
+          "province": "Burgos",
+          "population": 357650,
+          "population_percentage": 0.75,
+          "surface": 14022,
+          "surface_percentage": 2.77
+        },
+        {
+          "province": "León",
+          "population": 456439,
+          "population_percentage": 0.96,
+          "surface": 15580,
+          "surface_percentage": 3.08
+        },
+        {
+          "province": "Palencia",
+          "population": 160321,
+          "population_percentage": 0.33,
+          "surface": 8052,
+          "surface_percentage": 1.59
+        },
+        {
+          "province": "Salamanca",
+          "population": 329245,
+          "population_percentage": 0.69,
+          "surface": 12349,
+          "surface_percentage": 2.44
+        },
+        {
+          "province": "Segovia",
+          "population": 153478,
+          "population_percentage": 0.32,
+          "surface": 6920,
+          "surface_percentage": 1.37
+        },
+        {
+          "province": "Soria",
+          "population": 88884,
+          "population_percentage": 0.18,
+          "surface": 10306,
+          "surface_percentage": 2.04
+        },
+        {
+          "province": "Valladolid",
+          "population": 520649,
+          "population_percentage": 1.1,
+          "surface": 8110,
+          "surface_percentage": 1.6
+        },
+        {
+          "province": "Zamora",
+          "population": 170588,
+          "population_percentage": 0.35,
+          "surface": 10561,
+          "surface_percentage": 2.09
+        }
+      ],
+      "surface": 94226,
+      "population": 2407650,
+      "capital": "No declarada"
+    },
+    {
+      "id": 9,
+      "community": "Cataluña",
+      "provinces": [
+        {
+          "province": "Barcelona",
+          "population": 5743402,
+          "population_percentage": 12.21,
+          "surface": 7733,
+          "surface_percentage": 1.53
+        },
+        {
+          "province": "Gerona",
+          "population": 761947,
+          "population_percentage": 1.62
+        },
+        {
+          "province": "Lérida",
+          "population": 438517,
+          "population_percentage": 0.92,
+          "surface": 12172,
+          "surface_percentage": 2.41
+        },
+        {
+          "province": "Tarragona",
+          "population": 804664,
+          "population_percentage": 1.71
+        }
+      ],
+      "surface": 32107,
+      "population": 7596131,
+      "capital": "Barcelona"
+    },
+    {
+      "id": 10,
+      "community": "Comunidad Valenciana",
+      "provinces": [
+        {
+          "province": "Alicante",
+          "population": 1879888,
+          "population_percentage": 4.0,
+          "surface": 5817,
+          "surface_percentage": 1.15
+        },
+        {
+          "province": "Castellón",
+          "population": 585590,
+          "population_percentage": 1.23,
+          "surface": 6636,
+          "surface_percentage": 1.31
+        },
+        {
+          "province": "Valencia",
+          "population": 2591875,
+          "population_percentage": 5.51,
+          "surface": 10807,
+          "surface_percentage": 2.14
+        }
+      ],
+      "surface": 23255,
+      "population": 8379248,
+      "capital": "Valencia"
+    },
+    {
+      "id": 11,
+      "community": "Extremadura",
+      "provinces": [
+        {
+          "province": "Badajoz",
+          "population": 672137,
+          "population_percentage": 1.43,
+          "surface": 21766,
+          "surface_percentage": 4.3
+        },
+        {
+          "province": "Cáceres",
+          "population": 391850,
+          "population_percentage": 0.82,
+          "surface": 19868,
+          "surface_percentage": 3.93
+        }
+      ],
+      "surface": 41635,
+      "population": 4959243,
+      "capital": "Merida"
+    },
+    {
+      "id": 12,
+      "community": "Galicia",
+      "provinces": [
+        {
+          "province": "La Coruña",
+          "population": 1121815,
+          "population_percentage": 2.39,
+          "surface": 7950,
+          "surface_percentage": 1.57
+        },
+        {
+          "province": "Lugo",
+          "population": 327946,
+          "population_percentage": 0.69,
+          "surface": 9856,
+          "surface_percentage": 1.95
+        },
+        {
+          "province": "Orense",
+          "population": 306650,
+          "population_percentage": 0.64,
+          "surface": 7273,
+          "surface_percentage": 1.44
+        },
+        {
+          "province": "Pontevedra",
+          "population": 945408,
+          "population_percentage": 2.01,
+          "surface": 4494,
+          "surface_percentage": 0.89
+        }
+      ],
+      "surface": 29574,
+      "population": 2700970,
+      "capital": "Santiago de Compostela"
+    },
+    {
+      "id": 13,
+      "community": "La Rioja",
+      "provinces": [
+        {
+          "province": "La Rioja",
+          "population": 319914,
+          "population_percentage": 0.67,
+          "surface": 5045,
+          "surface_percentage": 1
+        }
+      ],
+      "surface": 5045,
+      "population": 315371,
+      "capital": "Logroño"
+    },
+    {
+      "id": 14,
+      "community": "Comunidad de Madrid",
+      "provinces": [
+        {
+          "province": "Madrid",
+          "population": 6779888,
+          "population_percentage": 14.41,
+          "surface": 8027,
+          "surface_percentage": 1.59
+        }
+      ],
+      "surface": 8022,
+      "population": 6576009,
+      "capital": "Madrid"
+    },
+    {
+      "id": 15,
+      "community": "Región de Murcia",
+      "provinces": [
+        {
+          "province": "Región de Murcia",
+          "population": 1511251,
+          "population_percentage": 3.21,
+          "surface": 11313,
+          "surface_percentage": 2.24
+        }
+      ],
+      "surface": 11313,
+      "population": 1477946,
+      "capital": "Murcia"
+    },
+    {
+      "id": 16,
+      "community": "Comunidad Foral de Navarra",
+      "provinces": [
+        {
+          "province": "Navarra",
+          "population": 661197,
+          "population_percentage": 1.39,
+          "surface": 10391,
+          "surface_percentage": 2.05
+        }
+      ],
+      "surface": 10391,
+      "population": 647219,
+      "capital": "Pamplona"
+    },
+    {
+      "id": 17,
+      "community": "País Vasco",
+      "provinces": [
+        {
+          "province": "Álava",
+          "population": 333940,
+          "population_percentage": 0.7,
+          "surface": 3037,
+          "surface_percentage": 0.6
+        },
+        {
+          "province": "Guipúzcoa",
+          "population": 727121,
+          "population_percentage": 1.55,
+          "surface": 1997,
+          "surface_percentage": 0.39
+        },
+        {
+          "province": "Vizcaya",
+          "population": 1159443,
+          "population_percentage": 2.47,
+          "surface": 2217,
+          "surface_percentage": 0.44
+        }
+      ],
+      "surface": 7234,
+      "population": 2198657,
+      "capital": "Vitoria"
+    },
+    {
+      "id": 18,
+      "community": "Ceuta",
+      "provinces": [
+        {
+          "province": "Ceuta",
+          "population": 84202,
+          "population_percentage": 0.17,
+          "surface": 18.5,
+          "surface_percentage": 0.0
+        }
+      ],
+      "surface": 19,
+      "population": 85144
+    },
+    {
+      "id": 19,
+      "community": "Melilla",
+      "provinces": [
+        {
+          "province": "Melilla",
+          "population": 87076,
+          "population_percentage": 0.18,
+          "surface": 12.3,
+          "surface_percentage": 0.0
+        }
+      ],
+      "surface": 12,
+      "population": 86308
+    }
+  ]
+}
